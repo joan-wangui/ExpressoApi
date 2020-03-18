@@ -11,8 +11,8 @@ namespace ExpressoApi.Data
     public class ExpressoDbContext:DbContext
     {
         //this property  will return the Dbset of menus and Reservations
-        public DbSet<Menu> Menus { get; set; }
+        public DbSet<Menu> menus { get; set; }
 
-        public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<Reservation> reservations { get; set; }
     }
 }
